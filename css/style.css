@@ -59,16 +59,17 @@ height: 30px;
 /* LAYOUT */
 .small-container {
     background-color: blue;
+    height: 250px;
 }
 
 .section-bg {
-    height: 400px;
+    height: 320px;
 }
 
 .pink-paragraph {
     background-color: palevioletred;
-    height: 250px;
-    width: 400px;
+    height: 180px;
+    width: 420px;
 }
 
 .bi-column {
