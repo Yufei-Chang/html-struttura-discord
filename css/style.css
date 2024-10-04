@@ -5,20 +5,16 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: lightgray;
-}
-
 /* COMMON */
 .container {
     width: 80%;
-    max-width: 1100px;
+    max-width: 550px;
     margin: 0 auto;
 }
 
-.flex-container {
+.header-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: orange;
     height: 30px;
     align-items: center;
@@ -87,4 +83,45 @@ body {
     background-color: green;
     height: 400px;
     width: 550px;
+}
+
+.footer {
+    background-color:#3b3a3a;
+}
+
+.info-contacs {
+    padding: 10px;
+}
+
+.salmon {
+    background-color: salmon;
+    height: 250px;
+    width: 150px;
+}
+
+.infos {
+    background-color: rgb(114, 247, 149);
+    height: 250px;
+    width: 100px;
+    border: 2px solid #b0ffee;
+}
+
+hr {
+    color: lightgray;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.two-buttons {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+}
+
+.bottom-text {
+    font-size: smaller;
+    background-color: salmon;
+    border-style: dotted;
+    border-color: black;
 }
